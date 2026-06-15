@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgendaTrip</title>
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AgendaTrip" />
+    <meta name="theme-color" content="#4f46e5" />
+    <link rel="apple-touch-icon" href="icon-192.png" />
+    <link rel="icon" type="image/png" href="icon-192.png" />
+    <link rel="manifest" href="manifest.json" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        background: #09090b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: -apple-system, sans-serif;
+      }
+      .logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 24px;
+        margin-bottom: 20px;
+      }
+      .title {
+        color: white;
+        font-size: 26px;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+      .sub {
+        color: #6b7280;
+        font-size: 14px;
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 0 32px;
+        line-height: 1.5;
+      }
+      .btn {
+        background: #4f46e5;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 16px 40px;
+        border-radius: 16px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .hint {
+        margin-top: 20px;
+        color: #4b5563;
+        font-size: 12px;
+        text-align: center;
+        padding: 0 32px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="icon-192.png" class="logo" alt="AgendaTrip" />
+    <p class="title">AgendaTrip</p>
+    <p class="sub">Tu itinerario de viaje siempre en tu bolsillo</p>
+    <a class="btn" href="https://ai.studio/apps/ca303335-6fa8-476b-8199-7c9ddf669787?fullscreenApplet=true">
+      Abrir app
+    </a>
+    <p class="hint">
+      Para instalar: toca compartir ↑ → "Añadir a pantalla de inicio"
+    </p>
+  </body>
+</html>
